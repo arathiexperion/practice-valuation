@@ -1,0 +1,140 @@
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Sign-IN</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="C:\Users\arathi.r\Desktop\datingValidation.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color:royalblue;
+    background-color: bisque;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #2a1abc !important;
+  }
+  .btn{
+      color: blue;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"><strong>Date Anytime </strong></a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li> &nbsp;
+        <li>
+
+       <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Occupation
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="#">IT-Developer</a></li>
+              <li><a href="#">Engineer</a></li>
+              <li><a href="#">Designer</a></li>
+            </ul>
+        </div>
+          
+        </li>
+
+        <li>
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Food
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Biriyani</a></li>
+                  <li><a href="#">Pizza</a></li>
+                  <li><a href="#">Dosa</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Hobby
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Travelling</a></li>
+                  <li><a href="#">Cricket</a></li>
+                  <li><a href="#">Craft</a></li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Movie
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Horror</a></li>
+                  <li><a href="#">comedy</a></li>
+                  <li><a href="#">Thriller</a></li>
+                </ul>
+            </div>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="C:\Users\arathi.r\Desktop\sign-in date anytime.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="C:\Users\arathi.r\Desktop\sign-up date anytime.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </nav>
+ <div class="container">
+  <div class="jumbotron border">
+    <div class="form-group">
+        <label for="name">Name :</label>
+        <input type="text" class="form-control" id="name">
+        <label for="age">Age :</label>
+        <input type="text" class="form-control" id="age">
+        <label for="gender">Gender :</label>
+        <input type="text" class="form-control" id="gender">
+        <label for="city">City :</label>
+        <input type="text" class="form-control" id="city">
+       
+      </div>
+      <button type="submit" class="btn btn-default" onclick="checkName()">Register !</button>
+    </form>
+  </div>
+</div>
+      
+  </div>
